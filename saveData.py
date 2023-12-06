@@ -4,6 +4,7 @@ import os
 
 # Replace this with the actual path where your 'data.csv' file is located
 path = '/Users/sopiokvantaliani/PythonApplications/Project2'
+path2 = '/Users/sopiokvantaliani/PythonApplications/Project2'
 
 file_path = os.path.join(path, "data.csv")
 with open(file_path, "r", encoding='utf-8') as file:
